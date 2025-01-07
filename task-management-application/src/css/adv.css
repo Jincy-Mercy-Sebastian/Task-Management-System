@@ -1,0 +1,53 @@
+
+.search-task {
+    justify-items: left;
+    font-size: medium;
+    width: 100%;
+    margin: 10px;
+    margin-right: 20px;
+
+    
+}
+
+.search-task button {
+    background-color: #4c6858;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: min-content;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;  /* Collapses the borders so there's no space between cells */
+    background-color: #f8f3f8;  /* Light background color for the table */
+    border-radius: 10px;  /* Optional: Rounded corners for the table */
+    border: 2px solid black;
+}
+
+.tasks-table th, .tasks-table td {
+    /* Adds border for each table cell */
+    padding: 10px;  /* Adds padding inside each cell for better readability */
+    text-align: left;  /* Align text to the left for better appearance */
+}
+
+.tasks-table th {
+    background-color: #405578;  /* Green background color for the table header */
+    color: white;  /* White text color for the header */
+    font-weight: bold;  /* Makes header text bold */
+}
+
+
+.tasks-table tbody tr:nth-child(even) {
+    background-color: #dee0e1;  /* Light gray background for even rows */
+}
+
+.tasks-table tbody tr:hover {
+    background-color: #ddd;  /* Adds a hover effect on rows (optional) */
+}
